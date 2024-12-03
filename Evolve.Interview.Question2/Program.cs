@@ -36,8 +36,8 @@ class Program
         };
 
         var allVehicleParked = cars
-            .Concat(motorcycles)
-            .Concat(buses)
+            .Union(motorcycles)
+            .Union(buses)
             .Shuffle()
             .ToList();
 

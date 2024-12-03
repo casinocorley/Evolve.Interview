@@ -61,7 +61,7 @@ public class Garage : IHaveParking
 
         // Return status
         var allVehicleParked = _compactVehiclesParked
-            .Concat(_vehiclesParked)
+            .Union(_vehiclesParked)
             .ToList();
         
         var allVehiclesNotParked = vehicles
