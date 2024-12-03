@@ -29,9 +29,9 @@ class Program
         };
 
         var buses = new List<IVehicle> {
-            new Bus("Blue Bird", "All American", 40, 30000, 40),
-            new Bus("Thomas Built", "Saf-T-Liner", 40, 30000, 40),
-            new Bus("Gillig", "Low Floor", 40, 30000, 40),
+            new Bus("Volvo", "Double Decker", 40, 30000, 80),
+            new Bus("Blue Bird", "School Bus", 40, 30000, 40),
+            new Bus("Thomas Built", "Short School Bus", 20, 20000, 20),
             new Bus("Nova Bus", "LFS", 40, 30000, 40)
         };
 
