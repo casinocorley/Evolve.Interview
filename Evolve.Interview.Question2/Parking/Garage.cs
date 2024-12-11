@@ -60,8 +60,8 @@ public class Garage : IHaveParking
         _vehiclesParked.AddRange(remainingVehicleToPark);
 
         // Return status
-        var allVehicleParked = _compactVehiclesParked
-            .Union(_vehiclesParked)
+        var allVehicleParked = compactVehiclesToPark
+            .Union(remainingVehicleToPark)
             .ToList();
         
         var allVehiclesNotParked = vehicles
