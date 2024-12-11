@@ -10,29 +10,29 @@ class Program
     {
         // Generate some cars, motorcycles, and buses
         var cars = new List<IVehicle> {
-            new Car("Honda", "Accord", 15, 3000, 4),
-            new Car("Nissan", "Frontier", 18, 4000, 4),
-            new Car("Toyota", "Prius", 12, 1400, 4),
-            new Car("Ford", "Bronco", 18, 4000, 6),
-            new Car("Subaru", "Crosstrek", 15, 2800, 4),
-            new Car("Nissan", "Leaf", 12, 1300, 4),
-            new Car("Hyundai", "Santa Fe", 18, 400, 6),
-            new Car("Ford", "F150", 20, 5000, 6)
+            new Car("Honda", "Accord", 4, 15, 3000, 4),
+            new Car("Nissan", "Frontier", 4, 18, 4000, 4),
+            new Car("Toyota", "Prius", 4, 12, 1400, 4),
+            new Car("Ford", "Bronco", 4, 18, 4000, 6),
+            new Car("Subaru", "Crosstrek", 4, 15, 2800, 4),
+            new Car("Nissan", "Leaf", 4, 12, 1300, 4),
+            new Car("Hyundai", "Santa Fe", 4, 18, 400, 6),
+            new Car("Ford", "F150", 4, 20, 5000, 6)
         };
 
         var motorcycles = new List<IVehicle> {
-            new Motorcycle("Honda", "CB 1000", 8, 800, 2),
-            new Motorcycle("Yamaha", "FJR 1300", 8, 700, 2),
-            new Motorcycle("Suzuki", "DR 650", 8, 800, 2),
-            new Motorcycle("Harley-Davidson", "Dyna Low Rider", 8, 900, 2),
-            new Motorcycle("Moto Guzzi", "V100 Mandello", 8, 700, 2)
+            new Motorcycle("Honda", "CB 1000", 2, 8, 800, 2),
+            new Motorcycle("Yamaha", "FJR 1300", 2, 8, 700, 2),
+            new Motorcycle("Suzuki", "DR 650", 2, 8, 800, 2),
+            new Motorcycle("Harley-Davidson", "Dyna Low Rider", 2, 8, 900, 2),
+            new Motorcycle("Moto Guzzi", "V100 Mandello", 2, 8, 700, 2)
         };
 
         var buses = new List<IVehicle> {
-            new Bus("Volvo", "Double Decker", 40, 30000, 80),
-            new Bus("Blue Bird", "School Bus", 40, 30000, 40),
-            new Bus("Thomas Built", "Short School Bus", 20, 20000, 20),
-            new Bus("Nova Bus", "LFS", 40, 30000, 40)
+            new Bus("Volvo", "Double Decker", 10, 40, 30000, 80),
+            new Bus("Blue Bird", "School Bus", 10, 40, 30000, 40),
+            new Bus("Thomas Built", "Short School Bus", 10, 20, 20000, 20),
+            new Bus("Nova Bus", "LFS", 10, 40, 30000, 40)
         };
 
         var allVehicleParked = cars
